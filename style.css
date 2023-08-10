@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 1200px;
+    
+    /* chiều cao toàn màn hình */
+    /* mọi người thích dùng 100vh */
+    height: 100vh;
+
+    background: #e5e5e5;
+
+    display: grid;
+
+    /* viết như này thì được 5 cột */
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    
+    /* viết như này thì được 2 dòng */
+    grid-template-rows: 200px 200px;
+    
+    /* khoảng cách giữa 2 phần tử là 20px */
+    gap: 20px;
+    
+    /* căn giữa trái phải */
+    justify-content: center;
+    
+    /* căn giữa trên dưới */
+    align-content: center;
+}
+
+div.phan_tu{
+    background: rgb(0, 150, 255);
+    border-radius: 5px;
+}
